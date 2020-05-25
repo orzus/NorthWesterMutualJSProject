@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1590439733269" clover="3.2.0">
+  <project timestamp="1590439733269" name="All files">
+    <metrics statements="121" coveredstatements="121" conditionals="20" coveredconditionals="20" methods="36" coveredmethods="36" elements="177" coveredelements="177" complexity="0" loc="121" ncloc="121" packages="3" files="10" classes="10">
+      <package name="constants">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="Ranks.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\constants\Ranks.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="7" type="stmt"/>
+        </file>
+        <file name="Suits.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\constants\Suits.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="7" type="stmt"/>
+        </file>
+      </package>
+      <package name="models">
+        <metrics statements="79" coveredstatements="79" conditionals="16" coveredconditionals="16" methods="26" coveredmethods="26"/>
+        <file name="Card.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\models\Card.js">
+          <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+          <line num="1" count="4" type="stmt"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="3" count="4" type="stmt"/>
+          <line num="7" count="1620" type="stmt"/>
+          <line num="8" count="1619" type="stmt"/>
+          <line num="10" count="1616" type="stmt"/>
+          <line num="11" count="1614" type="stmt"/>
+          <line num="14" count="557" type="stmt"/>
+          <line num="16" count="555" type="stmt"/>
+          <line num="19" count="159" type="cond" truecount="2" falsecount="0"/>
+          <line num="24" count="4" type="stmt"/>
+        </file>
+        <file name="Deck.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\models\Deck.js">
+          <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="7" count="30" type="stmt"/>
+          <line num="9" count="30" type="stmt"/>
+          <line num="10" count="390" type="stmt"/>
+          <line num="11" count="1560" type="stmt"/>
+          <line num="17" count="46" type="stmt"/>
+          <line num="21" count="5" type="stmt"/>
+          <line num="22" count="5" type="stmt"/>
+          <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="25" count="4" type="stmt"/>
+          <line num="26" count="106" type="cond" truecount="2" falsecount="0"/>
+          <line num="27" count="2" type="stmt"/>
+          <line num="31" count="2" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="38" count="3" type="stmt"/>
+        </file>
+        <file name="Game.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\models\Game.js">
+          <metrics statements="21" coveredstatements="21" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="5" count="19" type="stmt"/>
+          <line num="6" count="18" type="stmt"/>
+          <line num="8" count="15" type="stmt"/>
+          <line num="9" count="15" type="stmt"/>
+          <line num="12" count="13" type="stmt"/>
+          <line num="14" count="23" type="stmt"/>
+          <line num="17" count="5" type="stmt"/>
+          <line num="18" count="5" type="stmt"/>
+          <line num="19" count="5" type="stmt"/>
+          <line num="20" count="5" type="stmt"/>
+          <line num="23" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="27" count="3" type="stmt"/>
+          <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="34" count="2" type="stmt"/>
+          <line num="35" count="53" type="cond" truecount="2" falsecount="0"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="45" count="2" type="stmt"/>
+        </file>
+        <file name="Player.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\models\Player.js">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="5" count="59" type="stmt"/>
+          <line num="7" count="57" type="stmt"/>
+          <line num="8" count="57" type="stmt"/>
+          <line num="11" count="11" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="20" count="5" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+        </file>
+        <file name="Rank.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\models\Rank.js">
+          <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+          <line num="1" count="5" type="stmt"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="6" count="1626" type="stmt"/>
+          <line num="7" count="1624" type="stmt"/>
+          <line num="8" count="1621" type="stmt"/>
+          <line num="11" count="13" type="stmt"/>
+          <line num="13" count="1656" type="stmt"/>
+          <line num="15" count="562" type="stmt"/>
+          <line num="17" count="319" type="stmt"/>
+          <line num="20" count="161" type="cond" truecount="2" falsecount="0"/>
+          <line num="25" count="5" type="stmt"/>
+        </file>
+        <file name="Suit.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\models\Suit.js">
+          <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="1" count="5" type="stmt"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="6" count="1623" type="stmt"/>
+          <line num="7" count="1621" type="stmt"/>
+          <line num="8" count="1618" type="stmt"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="13" count="2013" type="stmt"/>
+          <line num="15" count="560" type="stmt"/>
+          <line num="17" count="160" type="stmt"/>
+          <line num="20" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="util">
+        <metrics statements="40" coveredstatements="40" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
+        <file name="cardDealer.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\util\cardDealer.js">
+          <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="34" count="5" type="stmt"/>
+          <line num="35" count="4" type="stmt"/>
+          <line num="36" count="3" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="43" count="25" type="stmt"/>
+          <line num="45" count="25" type="stmt"/>
+          <line num="46" count="91" type="stmt"/>
+          <line num="52" count="2" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="62" count="3" type="stmt"/>
+          <line num="67" count="3" type="stmt"/>
+          <line num="69" count="3" type="stmt"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="79" count="29" type="stmt"/>
+          <line num="84" count="29" type="stmt"/>
+          <line num="86" count="29" type="stmt"/>
+          <line num="88" count="960" type="stmt"/>
+          <line num="90" count="960" type="stmt"/>
+          <line num="93" count="29" type="stmt"/>
+          <line num="96" count="1" type="stmt"/>
+        </file>
+        <file name="testUtils.js" path="C:\Users\JUser\OneDrive\Desktop\code-challenge-orzu-sangov-master\src\util\testUtils.js">
+          <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+          <line num="1" count="5" type="stmt"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="3" count="5" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="15" count="5019" type="stmt"/>
+          <line num="19" count="13117" type="stmt"/>
+          <line num="20" count="1009" type="stmt"/>
+          <line num="22" count="1009" type="stmt"/>
+          <line num="26" count="4032" type="stmt"/>
+          <line num="27" count="1008" type="stmt"/>
+          <line num="29" count="1008" type="stmt"/>
+          <line num="33" count="5" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
